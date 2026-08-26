@@ -476,6 +476,10 @@
   .text-\[15px\] {
     font-size: 15px;
   }
+  .leading-0 {
+    --tw-leading: 0px;
+    line-height: 0px;
+  }
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
@@ -574,6 +578,9 @@
   .select-none {
     -webkit-user-select: none;
     user-select: none;
+  }
+  .group-open\:rotate-18:is(:where(.group):is([open], :popover-open, :open) *) {
+    rotate: 18deg;
   }
   .group-open\:rotate-180:is(:where(.group):is([open], :popover-open, :open) *) {
     rotate: 180deg;
